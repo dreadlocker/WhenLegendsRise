@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.links {
+    padding: 0 10px;
+    color: rgb(133, 130, 130);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.links:hover {
+    color: white;
+    background-color: rgb(87, 87, 87);
+}
+
+.clickedItem {
+    color: white;
+    background-color: rgb(87, 87, 87);
+}
+
+#h1,
+#h2,
+#linksContainer,
+#text,
+.centered {
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+#text {
+    color: rgb(133, 130, 130);
+}
+
+#linksContainer {
+    padding: 0.5em;
+}
+
+#song2container,
+#song3container,
+#song4container,
+#song5container,
+#song6container,
+#song7container,
+#song8container,
+#song9container,
+#song10container,
+#song11container {
+    display: none;
+}
+
+h1,
+h2,
+p,
+a {
+    font-size: 3vmax;
+}
+
+#h1 {
+    margin: 0;
+    padding: 0.5em;
+}
+
+iframe {
+    margin-top: 1em;
+    width: 700px;
+    height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    iframe {
+        margin-top: 1em;
+        width: 300px;
+        height: 170px;
+    }
+}
+
+.myAudio {
+    width: 98%;
+    padding: 10px 0;
+}
