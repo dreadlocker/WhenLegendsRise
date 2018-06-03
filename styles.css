@@ -22,10 +22,10 @@ body {
 }
 
 #h1,
-#h2,
+.h2,
 #h22,
 #linksContainer,
-#text,
+.text,
 .centered {
     text-align: center;
 }
@@ -39,8 +39,9 @@ h2 {
     margin: 5px;
 }
 
-#text {
+.text {
     color: rgb(133, 130, 130);
+    margin: 0 auto;
 }
 
 #linksContainer {
